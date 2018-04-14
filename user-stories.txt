@@ -1,0 +1,14 @@
+User Stories for Asana
+
+As a user, I would be able to assign task to appropriate person so that everyone knows who is responsible for the task and whom to contact if any question arises.
+
+As a user, I would be able to see the tasks assigned to me and the deadline to complete the assigned tasks so that I can complete them on time.
+
+As a user, I would be able to see the status of my task so that I can know which tasks are pending, which are the upcoming tasks, and which are already in progress.
+
+As a user, I would be able to change the status of the tasks that are completed as “completed” ones and when a new task is assigned to me, I would be able to when be the task assigned to me and when is its due date.
+
+As a user, I would be a part of a team working on a project. I would also be able to change my team if I am working on a new project.
+
+As a user, I would be able to understand what objectives upcoming and what tasks are needing to be fulfilled soon, which tasks needs my attention so that I can meet the deadlines without any haste.
+
