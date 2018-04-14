@@ -32,7 +32,7 @@ RETURN task.task_name
 │"task4"         │
 └────────────────┘
 
-// Updates the task status and adds completed time
+ // Updates the task status and adds completed time
 
 MATCH(task:TASK{task_name:'task3'})
 SET task.status = 'completed'
