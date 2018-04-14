@@ -1,4 +1,4 @@
-User Stories for Asana
+ User Stories for Asana
 
 As a user, I would be able to assign task to appropriate person so that everyone knows who is responsible for the task and whom to contact if any question arises.
 
