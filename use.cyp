@@ -1,3 +1,5 @@
+// Retrieves tasks which are not completed for a given Project name and their statuses, Due date
+
 MATCH (project:Project{p_name:'p1'})
 MATCH(task:TASK)
 WHERE task.project_id = project.project_id
@@ -14,6 +16,8 @@ RETURN task.task_name,task.status,task.due_on
 │"task8"         │"upcoming"   │"02/01/2018" │
 └────────────────┴─────────────┴─────────────┘
 
+// Retrieves the QA tasks associated with a particular project  
+
 MATCH (project:Project{p_name:'p2'})
 MATCH(task:TASK)
 WHERE task.project_id = project.project_id
@@ -27,6 +31,8 @@ RETURN task.task_name
 ╞════════════════╡
 │"task4"         │
 └────────────────┘
+
+// Updates the task status and adds completed time
 
 MATCH(task:TASK{task_name:'task3'})
 SET task.status = 'completed'
